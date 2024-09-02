@@ -8,7 +8,7 @@ class PlaceDitelsScreen extends StatelessWidget {
   String get locaionImagee {
     final lat = place.locatoin.latitud;
     final lon = place.locatoin.longtoud;
-    return "https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lon=&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lon&key=AIzaSyCMo9Y409Qx_VpCS0wUgADpokDBMJffNE0";
+    return "https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lon=&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lon&key=***********";
   }
 
   @override
