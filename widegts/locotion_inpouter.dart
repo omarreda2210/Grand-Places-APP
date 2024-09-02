@@ -30,7 +30,7 @@ class _LocationInpouterState extends State<LocationInpouter> {
 
   Future<void> saivePlace(double lat, double long) async {
     final url = Uri.parse(
-        'https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$long&key=AIzaSyCMo9Y409Qx_VpCS0wUgADpokDBMJffNE0');
+        'https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$long&key=***********');
     final responce = await http.get(url);
     final resoData = json.decode(responce.body);
     final adrees = resoData['results'][0]['formatted_address'];
