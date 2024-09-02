@@ -25,7 +25,7 @@ class _LocationInpouterState extends State<LocationInpouter> {
     }
     final lat = pickedLocation!.latitud;
     final lon = pickedLocation!.longtoud;
-    return "https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lon=&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lon&key=AIzaSyCMo9Y409Qx_VpCS0wUgADpokDBMJffNE0";
+    return "https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lon=&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lon&key=**********";
   }
 
   Future<void> saivePlace(double lat, double long) async {
